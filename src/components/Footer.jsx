@@ -32,7 +32,7 @@ const Footer = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://yourportfolio.com"
+            href="https://portfolioo-flame-omega.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-green-400 transition text-2xl"
