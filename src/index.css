@@ -1,0 +1,39 @@
+@import "tailwindcss";
+/* Default Cursor */
+/* Default Cursor */
+.custom-cursor {
+  position: fixed;
+  font-size: 24px; /* Adjust emoji size */
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease-out;
+}
+
+/* Cursor Effect When Hovering Over Links/Buttons */
+.hovered {
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+/* Hide Default Cursor */
+body {
+  cursor: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Background color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #505052, #9333ea); /* Scrollbar color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #6d28d9, #7e22ce); /* Hover effect */
+}
