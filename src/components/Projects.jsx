@@ -1,12 +1,9 @@
 import { motion } from "framer-motion";
 
-import image1 from "../assets/image1.png";
-import image2 from "../assets/image2.png";
-import image3 from "../assets/image3.png";
-import image4 from "../assets/image4.jpg";
-import chat from "../assets/chat.png";
-import ai from "../assets/ai.png";
-import book from "../assets/book.png";
+
+import chat from "../images/chat.png";
+import ai from "../images/ai.png";
+import book from "../images/book.png";
 
  import { AiFillAccountBook } from "react-icons/ai";
 
